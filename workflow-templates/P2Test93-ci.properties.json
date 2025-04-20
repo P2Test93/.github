@@ -1,7 +1,7 @@
 {
     "name": "P2Test93 Organization Workflow",
     "description": "P2Test93 Organization CI workflow template.",
-    "iconName": "example-icon",
+    "iconName": "logo.png",
     "categories": [
         "Go"
     ],
