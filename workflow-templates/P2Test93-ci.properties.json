@@ -1,14 +1,13 @@
 {
-  "name": "P2Test93 Organization Workflow",
+  "name": "P2Test93 CI Workflow",
   "description": "P2Test93 Organization CI workflow template.",
-  "iconName": "terminal",
-  "categories": [
-    "Continuous integration"
-  ],
+  "iconName": "logo.png",
+  "categories": ["Continuous integration"],
   "filePatterns": [
     "package.json$",
     "^Dockerfile",
     ".*\\.md$"
   ]
 }
+
 
