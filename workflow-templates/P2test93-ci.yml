@@ -2,9 +2,9 @@ name: P2test93 CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ "${{ default_branch }}" ]
   pull_request:
-    branches: [ main ]
+    branches: [ "${{ default_branch }}" ]
 
 jobs:
   build:
@@ -12,7 +12,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-
-      - name: Run a one-line script
-        run: echo Hello from P2Test93 Organization
+      - name: Say Hello
+        run: echo "Hello from P2Test93 Organization"
 
