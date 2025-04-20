@@ -1,0 +1,13 @@
+{
+    "name": "P2Test93 Organization Workflow",
+    "description": "P2Test93 Organization CI workflow template.",
+    "iconName": "example-icon",
+    "categories": [
+        "Go"
+    ],
+    "filePatterns": [
+        "package.json$",
+        "^Dockerfile",
+        ".*\\.md$"
+    ]
+}
